@@ -15,7 +15,7 @@ from langchain.prompts.chat import (
     HumanMessagePromptTemplate,
 )
 import os
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 
 model_name="TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 model = AutoModelForCausalLM.from_pretrained(
